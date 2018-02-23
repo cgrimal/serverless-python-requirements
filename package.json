@@ -1,6 +1,6 @@
 {
   "name": "serverless-python-requirements",
-  "version": "3.1.1",
+  "version": "3.2.2",
   "engines": {
     "node": ">=6.0"
   },
@@ -39,7 +39,7 @@
   "bin": {},
   "scripts": {
     "test": "bats test.bats",
-    "lint": "eslint *.js"
+    "lint": "eslint *.js lib/*.js"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
@@ -55,6 +55,7 @@
     "lodash.get": "^4.4.2",
     "lodash.set": "^4.3.2",
     "lodash.values": "^4.3.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "shell-quote": "^1.6.1"
   }
 }
